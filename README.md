@@ -17,18 +17,19 @@ GitPeek is an iOS app for searching and viewing GitHub user profiles.
    - iOS 16.0 or later
 
 2. **Clone the repository**
-   ```sh
-   git clone https://github.com/yourusername/GitPeek.git
-   cd GitPeek
+   - Copy the command line instruction below and open 'Terminal' from your list of applications. Then paste and run the instuction.
    ```
-   - Double-click `GitPeek.xcodeproj` or open it from Xcode's File > Open menu.
+   git clone https://github.com/AbdullahNana/GitPeek.git
+   ```
+   - Navigate the downloaded repository from your files.
+   - Double-click `GitPeek.xcodeproj`.
 
-3. **Build and Run**
+4. **Build and Run**
    - Select the `GitPeek` scheme.
    - Choose an iOS Simulator (e.g., iPhone 14).
    - Press `Cmd+R` to build and run.
 
-4. **Run Tests**
+5. **Run Tests**
    - Press `Cmd+U` or go to Product > Test to run the unit tests.
 
 ## Architectural Decisions & Structure
@@ -47,9 +48,7 @@ GitPeek is an iOS app for searching and viewing GitHub user profiles.
 - `Networking.swift`: Protocol for URLSession abstraction
 - `Constants.swift`: Centralized constants
 - `GitPeekTests/GitPeekTests.swift`: Unit tests
+- `Localizable.strings`: Text used in the app
 
-## Why These Decisions?
-- **MVVM & Dependency Injection**: Ensures code is modular, testable, and easy to maintain.
-- **Async/Await**: Modern Swift concurrency for better performance and readability.
-- **Testing**: High test coverage ensures reliability and confidence in future changes.
-- **UI/UX**: A clean, modern interface makes the app enjoyable to use.
+## Why Implement Testing? (Bonus Feature)
+- The `GitPeekTests` target includes comprehensive unit tests for the ViewModel, covering all major states and error conditions. Unit tests are important in every project because they ensure individual components of the app work correctly, helping catch bugs early and maintain code reliability during development. I implemented this in my project as it is something with which I am familiar. It also assisted me with debugging and ensuring that my code was reliable.

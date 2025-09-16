@@ -29,9 +29,22 @@
 		4C5449E12E720D6100FD110E /* GitPeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitPeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4C544AAB2E79665E00FD110E /* Exceptions for "GitPeek" folder in "GitPeekTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Localizable.strings,
+			);
+			target = 4C5449D62E720D6100FD110E /* GitPeekTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4C5449CB2E720D6000FD110E /* GitPeek */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4C544AAB2E79665E00FD110E /* Exceptions for "GitPeek" folder in "GitPeekTests" target */,
+			);
 			path = GitPeek;
 			sourceTree = "<group>";
 		};

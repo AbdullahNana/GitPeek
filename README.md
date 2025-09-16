@@ -51,7 +51,7 @@ GitPeek is an iOS app for searching and viewing GitHub user profiles.
 - `Localizable.strings`: Text used in the app
 
 ## Why Implement Testing? (Bonus Feature)
-- The `GitPeekTests` target includes comprehensive unit tests for the ViewModel, covering all major states and error conditions. Unit tests are important in every project because they ensure individual components of the app work correctly, helping catch bugs early and maintain code reliability during development. I implemented this in my project as it is something with which I am familiar. It also assisted me with debugging and ensuring that my code was reliable.
+- The `GitPeekTests` target includes comprehensive unit tests for the ViewModel, covering all major states and error conditions. Unit tests are important in every project because they ensure individual components of the app work correctly, helping catch bugs early and maintain code reliability during development. I implemented this in my project as it is something with which I am familiar. It also assisted me with debugging and ensuring that my code was reliable and helped me ensure that the iterative changes I made to my code were working as expected and not introducing unexpected bugs.
 
 ### App Demo:
 

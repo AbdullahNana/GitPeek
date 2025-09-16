@@ -24,12 +24,17 @@ GitPeek is an iOS app for searching and viewing GitHub user profiles.
    - Navigate the downloaded repository from your files.
    - Double-click `GitPeek.xcodeproj`.
 
-4. **Build and Run**
+3. **Build and Run**
    - Select the `GitPeek` scheme.
    - Choose an iOS Simulator (e.g., iPhone 14).
    - Press `Cmd+R` to build and run.
 
-5. **Run Tests**
+4. **Run Tests**
+   - Open the `GitPeekTests.swift` file.
+   - Click on the diamond-shaped 'play' button on the left of the `GitHubUserViewModelAsyncTests` class.
+
+   OR
+
    - Press `Cmd+U` or go to Product > Test to run the unit tests.
 
 ## Architectural Decisions & Structure

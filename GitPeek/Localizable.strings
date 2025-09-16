@@ -1,0 +1,16 @@
+/* Localizable.strings - English */
+"app_title" = "GitPeek: GitHub User Search";
+"username_placeholder" = "Enter GitHub username";
+"search_button" = "Search";
+"loading" = "Loading...";
+"error_empty_username" = "Please enter a username.";
+"error_invalid_url" = "Invalid URL.";
+"error_network" = "Network error: %@";
+"error_invalid_response" = "Invalid response from server.";
+"error_user_not_found" = "User not found.";
+"error_no_data" = "No data received.";
+"error_parse" = "Failed to parse user data.";
+"no_name" = "No name provided";
+"repos" = "Repositories";
+"followers" = "Followers";
+"error_no_internet" = "No internet connection. Please check your connection and try again.";
